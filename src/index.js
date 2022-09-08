@@ -21,7 +21,7 @@ require('dotenv').config();
         `,
         html: `
           <h1>Daily Report</h1>
-          <p><a href="${process.env.FORM_URL}"form</a></p>
+          <p><a href="${process.env.FORM_URL}">form</a></p>
         `,
       });
 })();
